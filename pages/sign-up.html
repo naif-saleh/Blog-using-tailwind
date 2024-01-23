@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./tailwinde/tailwinde.js"></script>
+    <title>Sign-Up Page</title>
+</head>
+<body>
+    <header class="p-4 shadow-sm flex">
+        <div class="logo ">
+            <a href="./index.html"><img src="./logo/blog.png" alt="Logo" class="w-[60px]"></a>
+        </div>
+        <h1 class="text-[30px] mx-auto">SignUp-Page</h1>
+    </header>
+
+    <div class="max-w-7xl mx-auto grid grid-cols-2 p-6 bg-gray-200 gap-4">
+        <div class="left-side">
+            <div class=" p-12 rounded-md border border-gray-300 bg-white  text-center">
+                <h1 class="text-[35px] mb-4">Sign-Up</h1>
+                <p class="text-lg text-gray-500 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod error fugit voluptatum, quae necessitatibus esse debitis repudiandae porro nobis.</p>
+                <p>I already have an account <a href="./login.html" class="text-cyan-600 ">Click Here</a></p>
+            </div>
+        </div>
+
+        <div class="right-side ">
+            <div class="p-12 rounded-md border border-gray-300 bg-white">
+                <form action="">
+                    <div class="username">
+                        <label for="">User Name</label>
+                        <input type="text" class="w-full mb-4 py-4 px-6 rounded rounded-lg text-gray-500 border border-gray-300" placeholder="Your username..." style="outline: none;">
+                    </div>
+                    <div class="email">
+                        <label for="">Email</label>
+                        <input type="text" class="w-full mb-4 py-4 px-6 rounded rounded-lg text-gray-500 border border-gray-300" placeholder="Your email..." style="outline: none;">
+                    </div>
+                    <div class="password mt-4">
+                        <label for="">Password</label>
+                        <input type="password" class="w-full mb-4 py-4 px-6 rounded rounded-lg text-gray-500 border border-gray-300" placeholder="Your password..." style="outline: none;">
+                    </div>
+                    <div class="Re-password mt-4">
+                        <label for="">Repeat-Password</label>
+                        <input type="password" class="w-full mb-4 py-4 px-6 rounded rounded-lg text-gray-500 border border-gray-300" placeholder="Repeat your password..." style="outline: none;">
+                    </div>
+                    <div class="login-btn">
+                        <input type="submit" value="Register Account" class=" py-4 px-6 text-white bg-cyan-600 rounded rounded-lg hover:bg-cyan-500 font-bold transition-all">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
